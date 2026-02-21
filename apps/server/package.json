@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "private": true,
+  "description": "Go Lang server for the watch party app",
+  "scripts": {
+    "dev": "air",
+    "build": "go build -o ./bin/api ./cmd/api",
+    "start": "./bin/api",
+    "test": "go test ./... -v"
+  }
+}
