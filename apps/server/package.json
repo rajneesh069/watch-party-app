@@ -6,6 +6,7 @@
     "dev": "air",
     "build": "go build -o ./bin/api ./cmd/api",
     "start": "./bin/api",
-    "test": "go test ./... -v"
+    "test": "go test ./... -v",
+    "lint": "golangci-lint run ./..."
   }
 }
